@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Publish optitrack rigid bodies. -->
+  <node name="rigid_bodies_publisher" pkg="optitrack" type="Optitrack_publisher.py" output="screen">
+  </node>
+    
+</launch>
